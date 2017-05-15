@@ -203,9 +203,12 @@ h1 {
 ._8 {  background:url(/img/8_.jpg);}
 ._9 {  background:url(/img/9_.jpg);}
 ._10 { background:url(/img/10_.jpg);}
-._11 { background:url(/img/11_.jpg);}
-._12 { background:url(/img/12_.jpg);}
 
+
+._10 {
+  margin-left: 34.3333% !important;
+
+}
 
 /* ._3:hover { 
 	background:url(3.png);
