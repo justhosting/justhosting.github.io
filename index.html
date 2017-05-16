@@ -49,7 +49,10 @@
 
 <main>
 
-  <img class="start-photo" src="./imgs/girls.png" srcset="./imgs/girls.png 1x, ./imgs/girls@1900.png 2x," />
+  <picture>
+    <source media="(min-width: 800px)" srcset="./imgs/girls.png 1x, ./imgs/girls@1900.png 2x">
+    <img class="start-photo" src="./imgs/girls@800.png" />
+  </picture>
 
   <div class="container description-section section">
     <p class="description-section__text mb-5">Могилянська Міс — щорічний благодійний конкурс, на якому обирають найкрасивішу представницю могилянської спільноти.</p>
