@@ -119,12 +119,21 @@
   }
 
   &__item {
+    margin-left: 0;
+    margin-right: 0;
     margin-bottom: $participant-item-margin-xs-y;
     margin-top: $participant-item-margin-xs-y;
 
     @include media-breakpoint-up(md) {
       margin-top: $participant-item-margin-md-y;
       margin-bottom: $participant-item-margin-md-y;
+    }
+
+    @include media-breakpoint-down(sm) {
+        > [class*="col-"] {
+          padding-left: 0;
+          padding-right: 0;
+        }
     }
   }
 
