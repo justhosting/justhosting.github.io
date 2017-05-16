@@ -16,6 +16,7 @@
   ],
   "dependencies": {
     "bootstrap": "v4.0.0-alpha.6",
-    "normalize-css": "normalize.css#^7.0.0"
+    "normalize-css": "normalize.css#^7.0.0",
+    "picturefill": "^3.0.3"
   }
 }
