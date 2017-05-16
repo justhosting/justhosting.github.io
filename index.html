@@ -1,135 +1,272 @@
 <!DOCTYPE html>
 <html>
 <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Могилянська міс 2017</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
-    
-   <meta property="og:title" content="Могилянська Міс 2017" />
-        <meta property="og:image" content="http://misskma.org.ua/landing/fb_share.jpg" />
-        <meta property="og:description" content="Могилянська міс — щорічний благодійний конкурс, на якому обирають найкрасивішу представницю могилянської спільноти." />
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="Могилянська Міс 2017" />
+    <meta property="og:image" content="http://misskma.org.ua/landing/fb_share.jpg" />
+    <meta property="og:description" content="Могилянська міс — щорічний благодійний конкурс, на якому обирають найкрасивішу представницю могилянської спільноти." />
     <meta property="og:url" content="http://misskma.org.ua" />
 
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
 
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" type="text/css" href="./bower_components/normalize-css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
         <!-- Place favicon.ico in the root directory -->
 
         <!-- <script src="js/vendor/modernizr-2.8.3.min.js"></script> -->
 
-
     <!-- <script type="text/javascript" src="live.js"></script> -->
 </head>
 <body>
-    <div class="svg-wrapper fill-w" id="logo-wrapper">
-        <object id="logo" class="fill-w" data="/svg/tiara.svg" type="image/svg+xml"></object>
-        <h1 id="logo-text">Могилянська Міс <b>2017</b></h1>
+
+<header class="header container">
+    <div class="header__logo logo">
+        <a href="./">
+          <img class="logo__img" src="./imgs/logo.svg" width="233" alt="Misskma logo">
+        </a>
     </div>
 
-<div class="social">
-    <a href="https://vk.com/missnaukma"><img src="/img/icons/vk.png"></a>
-    <a href="https://www.facebook.com/missNaUKMA"><img src="/img/icons/fb.png"></a>
-    <a href="https://instagram.com/missnaukma/"><img src="/img/icons/insta.png"></a>
+    <div class="header__menu menu">
 
-</div>
+      <nav class="menu__nav">
+        <a href="#participants" class="menu__link">Учасниці</a>
+        <a href="#partners" class="menu__link">Партнери</a>
+        <a href="https://vk.com/spring_date2017" class="menu__link">Аукціон</a>
+        <a href="#contacts" class="menu__link">Контакти</a>
+        <span class="menu__link">
+          <a class="btn" href="https://2event.com/uk/events/867253">Придбати<br>квиток</a>
+        </span>
+      </nav>
 
-<div class="wrapper">
-    <p>Могилянська міс — щорічний благодійний конкурс, на якому обирають найкрасивішу представницю могилянської спільноти. 
-    </p>
+    </div>
+</header>
 
-    <a href="https://2event.com/uk/events/867253" class="book-now" target="_blank">Придбати квитки</a>
 
-   <div class="misses">
-        <h1>Учасниці конкурсу</h1>
-        <div class="_1">
-            №1 Тартасюк Анна (ФІ-1)
-        </div>
-        <div class="_2">
-            №2 Васюр Оля (ФІ-4)
-        </div>
-        <div class="_3">
-            №3 Бичкова Дар’я (ФГН-2)
-        </div>
-        <div class="_4">
-            №4 Засімович Ірина (ФСНСТ-1)
-        </div>
-        <div class="_5">
-            №5 Кубарєва Анна (ФЕН-1 магістр)
-        </div>
-        <div class="_6">
-            №6 Лущик Ксенія (ФПвН-3)
-        </div>
-        <div class="_7">
-            №7 Вилегжаніна Олена (ФПвН-4)
-        </div>
-        <div class="_8">
-            №8 Чайлян Ельвіра (ФЕН-4) 
-        </div>
-        <div class="_9">
-            №9 Романченко Аліна (ФПвН-3)
-        </div>
-        <div class="_10" >
-            №10 Барановська Альона (ФГН-3)
+<main>
+
+  <img class="start-photo" src="./imgs/girls.png" />
+
+  <div class="container description-section section">
+    <p class="description-section__text mb-5">Могилянська міс — щорічний благодійний конкурс, на якому обирають найкрасивішу представницю могилянської спільноти.</p>
+
+    <div class="">
+      <a class="btn btn--large" href="https://2event.com/uk/events/867253">Придбати<br>квиток</a>
+    </div>
+  </div>
+
+  <section class="participants section" id="participants">
+    <h2 class="h2 text-uppercase participants__heading">Учасниці конкурсу</h2>
+
+    <div class="container">
+        <div class="row participants__list">
+            <article class="participants__item participant row col-12 col-lg-6">
+              <div class="col-12 col-md-6">
+                <img class="participant__photo" src="./imgs/participants/1.jpg" />
+              </div>
+
+              <div class="col-12 col-md-6 participant__description">
+                <p class="participant__heading">№1<br>Тартасюк Анна<br>ФІ-1</p>
+                <p class="participant__text">“Кожна людина - неймовірна, треба просто лише підібрати правильний ключик.”</p>
+              </div>
+            </article>
+
+            <article class="participants__item participant row col-12 col-lg-6">
+              <div class="col-12 col-md-6">
+                <img class="participant__photo" src="./imgs/participants/2.jpg" />
+              </div>
+
+              <div class="col-12 col-md-6 participant__description">
+                <p class="participant__heading">№2<br>Васюр Оля<br>ФІ-4</p>
+                <p class="participant__text">“Якщо в мене з'являється якесь дуже велике раптове бажання - не довго думаючи та підкорившись почуттям, роблю все можливе, щоб досягти всього тут та зараз.”</p>
+              </div>
+            </article>
+
+            <article class="participants__item participant row col-12 col-lg-6">
+              <div class="col-12 col-md-6">
+                <img class="participant__photo" src="./imgs/participants/3.jpg" />
+              </div>
+
+              <div class="col-12 col-md-6 participant__description">
+                <p class="participant__heading">№3<br>Бичкова Дар’я<br>ФГН-2</p>
+                <p class="participant__text">“Кожного дня посміхатимуся сонцю й очам навпроти, і обов'язково відправлю батьків у незабутню навколосвітню подорож.”</p>
+              </div>
+            </article>
+
+            <article class="participants__item participant row col-12 col-lg-6">
+              <div class="col-12 col-md-6">
+                <img class="participant__photo" src="./imgs/participants/4.jpg" />
+              </div>
+
+              <div class="col-12 col-md-6 participant__description">
+                <p class="participant__heading">№4<br>Засімович Ірина<br>ФСНСТ-1</p>
+                <p class="participant__text">“Через призму мого світосприйняття рівень світового океану піднявся на критичний відсоток.”</p>
+              </div>
+            </article>
+
+            <article class="participants__item participant row col-12 col-lg-6">
+              <div class="col-12 col-md-6">
+                <img class="participant__photo" src="./imgs/participants/5.jpg" />
+              </div>
+
+              <div class="col-12 col-md-6 participant__description">
+                <p class="participant__heading">№5<br>Кубарєва Анна<br>ФЕН-1 магістр</p>
+                <p class="participant__text">“Життя коротке, а тому чому б не з'їсти десерт перед першою стравою?”</p>
+              </div>
+            </article>
+
+            <article class="participants__item participant row col-12 col-lg-6">
+              <div class="col-12 col-md-6">
+                <img class="participant__photo" src="./imgs/participants/6.jpg" />
+              </div>
+
+              <div class="col-12 col-md-6 participant__description">
+                <p class="participant__heading">№6<br>Лущик Ксенія<br>ФПвН-3</p>
+                <p class="participant__text">“Я намагаюся дотримуватися тих стандартів, яких сама очікую від людей - простоти та щирості.”</p>
+              </div>
+            </article>
+
+            <article class="participants__item participant row col-12 col-lg-6">
+              <div class="col-12 col-md-6">
+                <img class="participant__photo" src="./imgs/participants/7.jpg" />
+              </div>
+
+              <div class="col-12 col-md-6 participant__description">
+                <p class="participant__heading">№7<br>Вилегжаніна Олена<br>ФПвН-4</p>
+                <p class="participant__text">“Коли авторитетні британські вчені створювали новий умовний поділ за критерієм "погляд бодай у річну перспективу", я залишилася осторонь.”</p>
+              </div>
+            </article>
+
+            <article class="participants__item participant row col-12 col-lg-6">
+              <div class="col-12 col-md-6">
+                <img class="participant__photo" src="./imgs/participants/8.jpg" />
+              </div>
+
+              <div class="col-12 col-md-6 participant__description">
+                <p class="participant__heading">№8<br>Чайлян Ельвіра<br>ФЕН-4</p>
+                <p class="participant__text">“Що голосніше я сміюся з ваших жартів, то більше ви мені імпонуєте як людина.”</p>
+              </div>
+            </article>
+
+            <article class="participants__item participant row col-12 col-lg-6">
+              <div class="col-12 col-md-6">
+                <img class="participant__photo" src="./imgs/participants/9.jpg" />
+              </div>
+
+              <div class="col-12 col-md-6 participant__description">
+                <p class="participant__heading">№9<br>Романченко Аліна<br>ФПвН-3</p>
+                <p class="participant__text">“Я обурена на те, що хмарочоси обмежують небо.”</p>
+              </div>
+            </article>
+
+            <article class="participants__item participant row col-12 col-lg-6">
+              <div class="col-12 col-md-6">
+                <img class="participant__photo" src="./imgs/participants/10.jpg" />
+              </div>
+
+              <div class="col-12 col-md-6 participant__description">
+                <p class="participant__heading">№10<br>Барановська Альона<br>ФГН-3</p>
+                <p class="participant__text">“Я щира, тому завжди відчувала нестачу "жіночих хитрощів" і здатності плести інтриги.”</p>
+              </div>
+            </article>
         </div>
     </div>
+  </section>
 
-</div>
+  <section class="partners__section container section" id="partners">
+    <h2 class="h2 text-uppercase mb-7">Наші Партнери</h2>
 
-<div class="sponsors-block">
-    <h1>Наші спонсори</h1>
+    <h3 class="h2 mb-6">Генеральний партнер</h3>
+    <img class="d-block m-auto" src="./imgs/partners/eleks@2x.png" width="240" alt="Eleks logo" />
 
-<!--    <div class="sponsors">
-        <a href="http://kmaoutfits.com/">
-            <img src="/img/sponsors/kma-outfits.png" class="square">
-        </a>
+    <h3 class="h2 mt-6 mb-6">Офіційні партнери</h3>
 
-        <a href="http://uipservice.com">
-            <img src="/img/sponsors/uip.png" class="square">            
-        </a>
+    <div class="partners__list">
+      <img class="partners__item" src="./imgs/partners/sova@2x.png" />
+      <div class="partners__item">
+        <img class="d-block mx-auto mb-2" src="./imgs/partners/max-factor.png" />
+        <small class="d-block font-weight-light text-center">*використай унікальний промо-код #miss2017 від нашого офіційного партнера та потіш себе <strong>знижкою 30%</strong> на товари від Max Factor :)</small>
+      </div>
+      <img class="partners__item" src="./imgs/partners/lukashyk@2x.png" />
+      <img class="partners__item" src="./imgs/partners/dream-bar.png" width="220" />
+      <img class="partners__item" src="./imgs/partners/eurotrips.png" width="230" />
+    </div>
 
-        <a href="http://escapequest.com.ua/">
-            <img src="/img/sponsors/escape-quest.jpg" class="square">
-        </a>
-        <a href="http://www.taft.schwarzkopf.ua/taft/ua/ua/home.html">
-            <img src="/img/sponsors/taft.jpg" class="square">           
-        </a>
+    <h3 class="h2 mt-6 mb-6">Партнери</h3>
+    <div class="partners__list">
+      <img class="partners__item" src="./imgs/partners/must-have.png" width="250" />
+      <img class="partners__item" src="./imgs/partners/chicardi.png" width="266" />
+      <img class="partners__item" src="./imgs/partners/uip.png" width="163" />
+      <img class="partners__item" src="./imgs/partners/bookling.png" width="252" />
+      <img class="partners__item" src="./imgs/partners/aquapark.png" width="240" />
+      <img class="partners__item" src="./imgs/partners/kma-giftshop.png" width="136" />
+      <img class="partners__item" src="./imgs/partners/facturno.png" width="163" />
+      <img class="partners__item" src="./imgs/partners/massage-studio.png" width="265" />
+      <img class="partners__item" src="./imgs/partners/twins-store.png" width="159" />
+      <img class="partners__item" src="./imgs/partners/fitcurves.png" width="288" />
+      <img class="partners__item" src="./imgs/partners/pure.png" width="170" />
+      <img class="partners__item" src="./imgs/partners/viva-models.png" width="280" />
+      <img class="partners__item" src="./imgs/partners/popkov.png" width="192" />
+      <img class="partners__item" src="./imgs/partners/print.png" width="127" />
+      <img class="partners__item" src="./imgs/partners/chgk.png" width="184" />
+      <img class="partners__item" src="./imgs/partners/studio-one.svg" width="228" />
+      <img class="partners__item" src="./imgs/partners/svitlo-concert.png" width="274" />
+    </div>
+  </section>
 
-        <a href="https://www.facebook.com/silpovoyage">
-            <img src="/img/sponsors/silpo-voyage.png" class="square">           
-        </a>
+  <section class="contacts__section section" id="contacts">
+    <h2 class="h2 mb-6 text-uppercase">Контакти</h2>
 
-        <a href="http://patriotdefence.org/">
-            <img src="/img/sponsors/patriot-defence.png" class="square">            
-        </a>
+    <nav class="contacts__nav nav align-items-center justify-content-center">
+      <a class="contacts__link nav-link" href="#">
+        <svg class="contacts__vk" x="0px" y="0px" width="63" fill="#FFF" viewBox="-282.9 415.4 20.3 11.5">
+            <path fill="#000" class="contacts__shape" d="M-263.5,415.9h-3.3c-0.3,0-0.5,0.2-0.7,0.4c0,0-1.3,2.4-1.7,3.2c-1.1,2.2-1.9,1.5-1.9,0.5v-3.5c0-0.6-0.5-1.1-1.1-1.1h-2.5
+            c-0.7-0.1-1.3,0.3-1.8,0.8c0,0,1.3-0.2,1.3,1.5c0,0.4,0,1.6,0,2.6c0,0.4-0.3,0.7-0.7,0.7c-0.2,0-0.4-0.1-0.6-0.2
+            c-1-1.4-1.9-2.9-2.5-4.5c-0.1-0.2-0.4-0.4-0.6-0.4c-0.7,0-2.1,0-3,0c-0.3,0-0.5,0.2-0.5,0.5c0,0.1,0,0.1,0,0.2
+            c0.9,2.5,4.8,10.3,9.3,10.3h1.9c0.4,0,0.7-0.3,0.7-0.7V425c0-0.4,0.3-0.7,0.7-0.7c0.2,0,0.4,0.1,0.5,0.2l2.2,2.1
+            c0.2,0.2,0.5,0.3,0.7,0.3h3c1.4,0,1.4-1,0.6-1.8c-0.5-0.5-2.5-2.6-2.5-2.6c-0.3-0.4-0.4-0.9-0.1-1.3c0.6-0.8,1.7-2.2,2.1-2.8
+            C-263,417.6-262,415.9-263.5,415.9z"></path>
+        </svg>
+      </a>
+      <a class="contacts__link  nav-link" href="#">
+        <svg class="contacts__fb" x="0px" y="0px" width="25" fill="#FFF" viewBox="-251 398.3 22.4 48.3">
+          <path fill="#000" class="contacts__shape" d="M-228.6,413.9h-7.6v-5c0-1.9,1.2-2.3,2.1-2.3c0.9,0,5.4,0,5.4,0v-8.3l-7.4,0c-8.2,0-10.1,6.2-10.1,10.1v5.5h-4.8v8.5h4.8
+          c0,10.9,0,24.1,0,24.1h10c0,0,0-13.3,0-24.1h6.8L-228.6,413.9z"></path>
+        </svg>
+      </a>
+      <a class="contacts__link  nav-link" href="#" >
+        <svg class="contacts__insta" width="45" x="0px" y="0px" viewBox="-16.3 117.1 258.8 258.8">
+        <g class="contacts__shape">
+        	<path d="M235.7,161.7c-3.3-8.5-7.7-15.7-14.9-22.9c-7.2-7.2-14.4-11.6-22.9-14.9c-8.2-3.2-17.7-5.4-31.4-6
+        		c-13.8-0.6-18.2-0.8-53.4-0.8s-39.6,0.1-53.4,0.8c-13.8,0.6-23.2,2.8-31.4,6c-8.5,3.3-15.7,7.7-22.9,14.9s-11.6,14.4-14.9,22.9
+        		c-3.2,8.2-5.4,17.7-6,31.4c-0.6,13.8-0.8,18.2-0.8,53.4s0.1,39.6,0.8,53.4c0.6,13.8,2.8,23.2,6,31.4c3.3,8.5,7.7,15.7,14.9,22.9
+        		c7.2,7.2,14.4,11.6,22.9,14.9c8.2,3.2,17.7,5.4,31.4,6c13.8,0.6,18.2,0.8,53.4,0.8s39.6-0.1,53.4-0.8c13.8-0.6,23.2-2.8,31.4-6
+        		c8.5-3.3,15.7-7.7,22.9-14.9c7.2-7.2,11.6-14.4,14.9-22.9c3.2-8.2,5.4-17.7,6-31.4c0.6-13.8,0.8-18.2,0.8-53.4s-0.1-39.6-0.8-53.4
+        		C241.1,179.3,238.9,169.9,235.7,161.7z M218.4,298.8c-0.6,12.6-2.7,19.5-4.5,24c-2.3,6-5.2,10.4-9.7,14.9s-8.8,7.3-14.9,9.7
+        		c-4.6,1.8-11.4,3.9-24,4.5c-13.7,0.6-17.7,0.8-52.3,0.8s-38.7-0.1-52.3-0.8c-12.6-0.6-19.5-2.7-24-4.5c-6-2.3-10.4-5.2-14.9-9.7
+        		s-7.3-8.8-9.7-14.9c-1.8-4.6-3.9-11.4-4.5-24C7,285.1,6.8,281,6.8,246.5s0.1-38.7,0.8-52.3c0.6-12.6,2.7-19.5,4.5-24
+        		c2.3-6,5.2-10.4,9.7-14.9s8.8-7.3,14.9-9.7c4.6-1.8,11.4-3.9,24-4.5c13.7-0.6,17.8-0.8,52.3-0.8s38.7,0.1,52.3,0.8
+        		c12.6,0.6,19.5,2.7,24,4.5c6,2.3,10.4,5.2,14.9,9.7s7.3,8.8,9.7,14.9c1.8,4.6,3.9,11.4,4.5,24c0.6,13.7,0.8,17.8,0.8,52.3
+        		S219,285.2,218.4,298.8z"/>
+        	<path d="M113,180c-36.7,0-66.5,29.8-66.5,66.5S76.3,313,113,313s66.5-29.8,66.5-66.5S149.7,180,113,180z
+        		 M113,289.7c-23.8,0-43.2-19.3-43.2-43.2c0-23.8,19.3-43.2,43.2-43.2s43.2,19.3,43.2,43.2C156.2,270.3,136.8,289.7,113,289.7z"/>
+        	<circle cx="182.1" cy="177.4" r="15.5"/>
+        </g>
+        </svg>
+      </a>
+    </nav>
+  </section>
+</main>
 
 
-        <a href="http://www.na-zakaz.kiev.ua/">
-            <img src="/img/sponsors/na-zakaz.png" class="wide">
-        </a>
-
-        <a href="http://salonda.com.ua/">
-            <img src="/img/sponsors/salonda.png" class="square">
-        </a>
-
-        <a href="http://parfumplus.com.ua/">
-            <img src="/img/sponsors/parfum-plus.png" class="wide">
-        </a>
-        <a href="http://www.neimovirna.com.ua/">
-            <img src="/img/sponsors/neimovirna.jpg" class="wide">           
-        </a>
-
-        <a href="https://www.facebook.com/MaxFactor.Ukraine" >
-            <img src="/img/sponsors/max-factor.jpg" class="wide">           
-        </a>
-
-    </div> -->
-
-</div>
+<script src="./bower_components/jquery/dist/jquery.min.js"></script>
+<script src="./js/modernizr-custom.js"></script>
+<script src="./js/Utility.js"></script>
+<script src="./js/main.js"></script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
